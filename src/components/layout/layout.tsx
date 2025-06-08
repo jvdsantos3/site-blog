@@ -5,12 +5,12 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-export function Layout({ children }: LayoutProps) {
+export const Layout = ({ children }: LayoutProps) => {
   return (
     <div className="relative flex min-h-screen flex-col dark">
       <Header />
-      <main className="flex-1 flex flex-col mb-12">{children}</main>
+      <main className="flex-1 flex flex-col mt-10 mb-12">{children}</main>
       <Footer />
     </div>
   );
-}
+};
