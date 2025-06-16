@@ -1,3 +1,4 @@
+"use client";
 import { ActiveLink } from "@/components/active-link";
 import { Logo } from "@/components/logo";
 import { Button } from "@/components/ui/button";
