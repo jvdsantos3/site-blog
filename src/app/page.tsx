@@ -1,8 +1,7 @@
 import { LandingPage } from "@/templates/landing-page";
-import { url } from "inspector";
-import { title } from "process";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Site.Set",
   description: "Venda seus produtos como afiliado em um único lugar",
   robots: "index, follow",
