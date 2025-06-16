@@ -15,7 +15,7 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "https://nextjs-fundamentos.vercel.app/og-image.jpg",
+        url: "https://site-blog-eight.vercel.app/og-image.jpg",
         width: 800,
         height: 600,
         alt: "Site.Set",
